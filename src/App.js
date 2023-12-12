@@ -3,6 +3,7 @@ import StackedAreaChart from "./components/StackedAreaChart/StackedAreaChart";
 import VerticalLineChart from "./components/VerticalLineChart/VerticalLineChart";
 
 import './App.css'
+import AreaChartFilledByValue from "./components/AreaChartFilledByValue/AreaChartFilledByValue";
 function App() {
   return (
     <div className="Header">
@@ -15,6 +16,9 @@ function App() {
         </li>
         <li>
           <StackedAreaChart />
+        </li>
+        <li>
+          <AreaChartFilledByValue/>
         </li>
       </ul>
 
