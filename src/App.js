@@ -6,6 +6,7 @@ import './App.css'
 import AreaChartFilledByValue from "./components/AreaChartFilledByValue/AreaChartFilledByValue";
 import Bartchart from "./components/BarChart/Bartchart";
 import ScatterChartPage from "./components/ScatterChart/ScatterChart";
+import PieChartPage from "./components/PieChart/PieChart";
 function App() {
   return (
     <div className="Header">
@@ -27,6 +28,9 @@ function App() {
         </li>
         <li>
           <ScatterChartPage/>
+        </li>
+        <li>
+          <PieChartPage/>
         </li>
       </ul>
 
