@@ -4,6 +4,7 @@ import VerticalLineChart from "./components/VerticalLineChart/VerticalLineChart"
 
 import './App.css'
 import AreaChartFilledByValue from "./components/AreaChartFilledByValue/AreaChartFilledByValue";
+import Bartchart from "./components/BarChart/Bartchart";
 function App() {
   return (
     <div className="Header">
@@ -19,6 +20,9 @@ function App() {
         </li>
         <li>
           <AreaChartFilledByValue/>
+        </li>
+        <li>
+          <Bartchart/>
         </li>
       </ul>
 
